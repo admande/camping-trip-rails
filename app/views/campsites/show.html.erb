@@ -1,0 +1,9 @@
+<p>
+  Campers bunking in <%= @campsite.name %>
+</p>
+
+<p>
+  All Campers: <% @campsite.campers.each do |camper| %>
+  <%= camper.name %>
+  <% end %>
+</p>

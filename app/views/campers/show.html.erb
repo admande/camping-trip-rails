@@ -1,0 +1,9 @@
+<p>
+  Supplies Brought by <%= @camper.name %>
+</p>
+
+<p>
+  All Supplies: <% @camper.supplies.each do |supply| %>
+  <%= supply.name %>!
+  <% end %>
+</p>
